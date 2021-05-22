@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri May 14 05:07:20 2021
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : dual_core_w_lock_memory
+Top-level Entity Name : dual_core_w_lock_memory
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 6,051 / 114,480 ( 5 % )
+    Total combinational functions : 5,832 / 114,480 ( 5 % )
+    Dedicated logic registers : 2,559 / 114,480 ( 2 % )
+Total registers : 2559
+Total pins : 263 / 529 ( 50 % )
+Total virtual pins : 0
+Total memory bits : 10,240 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 12 / 532 ( 2 % )
+Total PLLs : 0 / 4 ( 0 % )

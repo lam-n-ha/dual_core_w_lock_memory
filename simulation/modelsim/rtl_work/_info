@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/simulation/modelsim
+valu
+Z1 !s110 1621263476
+!i10b 1
+!s100 dENLcG`ghZlmE`SMG315L3
+IziS1`I8TXRSRhM1;0UmFF0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1620611442
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/alu.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1621263476.000000
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory
+Z7 tCvgOpt 0
+vcore_0_mem
+Z8 !s110 1621263477
+!i10b 1
+!s100 KA1GBZlICaAL_S^VEDUn83
+IcJoVgCV9dJU[XHcl2L7Y43
+R2
+R0
+w1620610823
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_0_mem.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_0_mem.v
+Z9 L0 40
+R3
+r1
+!s85 0
+31
+Z10 !s108 1621263477.000000
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_0_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_0_mem.v|
+!i113 1
+R5
+R6
+R7
+vcore_1_mem
+R8
+!i10b 1
+!s100 QKoKlnVXePRhXZ^K7XS[l1
+IHDQ1ClBBJgVZ[U`koC5Pa1
+R2
+R0
+w1620611131
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_1_mem.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_1_mem.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_1_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/core_1_mem.v|
+!i113 1
+R5
+R6
+R7
+vdual_core_w_lock_memory
+R8
+!i10b 1
+!s100 _5T^K:dA:_m]LgZh>d`JA0
+I=3O[fo7FSBhY8OG;;Q6nC1
+R2
+R0
+w1621263439
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/dual_core_w_lock_memory.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/dual_core_w_lock_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/dual_core_w_lock_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/dual_core_w_lock_memory.v|
+!i113 1
+R5
+R6
+R7
+vinstruction_parser
+R1
+!i10b 1
+!s100 bcB2C2hY7nIV_5?:lY<@^1
+IfCUMF:8KW;]F01>Ihe1ka3
+R2
+R0
+w1621261511
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/instruction_parser.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/instruction_parser.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/instruction_parser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/instruction_parser.v|
+!i113 1
+R5
+R6
+R7
+vregister_file
+R1
+!i10b 1
+!s100 8JH]UXnY0GnA7RKnn_8k>1
+Il9Ya19Ff8=>GVCMCPe0>L3
+R2
+R0
+w1620376756
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/register_file.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/register_file.v|
+!i113 1
+R5
+R6
+R7
+vtb
+R8
+!i10b 1
+!s100 0BBeNA6FM1ce`=^oFTKdD0
+Ih_WhF<RR5VM6YX0Go5a]H0
+R2
+R0
+w1621262294
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tb.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tb.v|
+!i113 1
+R5
+R6
+R7
+vtiny_risc_v
+R1
+!i10b 1
+!s100 hJC0^7`QSR6zX;=`cA66j0
+IbTjlQ8KU^h@F4AM9hl]891
+R2
+R0
+w1621261842
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tiny_risc_v.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tiny_risc_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tiny_risc_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tiny_risc_v.v|
+!i113 1
+R5
+R6
+R7
+vtwo_port_lock_mem
+R8
+!i10b 1
+!s100 J:^R2X1OT4UXdd=I82[_e2
+IMekO:RmHeW6ARhA3<_VDh1
+R2
+R0
+w1620987776
+8C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/two_port_lock_mem.v
+FC:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/two_port_lock_mem.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/two_port_lock_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory|C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/two_port_lock_mem.v|
+!i113 1
+R5
+R6
+R7

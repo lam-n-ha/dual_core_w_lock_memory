@@ -1,0 +1,46 @@
+module dual_core_w_lock_memory(
+	input clk, 
+	input rst, 
+	input start,
+	output wire done0, done1,
+	output reg [1:0]lock,
+	output wire [3:0]S0, S1,
+	output wire [3:0]NS0, NS1,
+	output wire [31:0]r10, r20, r11, r21,
+	output wire [7:0]alu_control0, alu_control1,
+	output wire [31:0]result0, result1,
+	output wire [6:0]opcode0, opcode1,
+	output wire [7:0]PC0, PC1 
+);
+
+tiny_risc_v core0(
+ clk, 
+ rst, 
+ start,
+ 1'b0,
+ lock[0],
+ done0,
+ S0,
+ NS0,
+ r10, r20,
+ alu_control0,
+ result0,
+ opcode0,
+ PC0
+);
+
+tiny_risc_v core1(
+ clk, 
+ rst, 
+ start,
+ 1'b1,
+ lock[1],
+ done1,
+ S1,
+ NS1,
+ r11, r21,
+ alu_control1,
+ result1,
+ opcode1,
+ PC01
+);

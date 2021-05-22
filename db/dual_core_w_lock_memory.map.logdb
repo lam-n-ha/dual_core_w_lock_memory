@@ -1,0 +1,7 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,tiny_risc_v:core0|alu:my_alu0|lpm_mult:Mult0|mult_46t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,tiny_risc_v:core1|alu:my_alu0|lpm_mult:Mult0|mult_46t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,tiny_risc_v:core0|alu:my_alu0|lpm_mult:Mult0|mult_46t:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,tiny_risc_v:core0|alu:my_alu0|lpm_mult:Mult0|mult_46t:auto_generated|mac_out6,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,tiny_risc_v:core1|alu:my_alu0|lpm_mult:Mult0|mult_46t:auto_generated|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,tiny_risc_v:core1|alu:my_alu0|lpm_mult:Mult0|mult_46t:auto_generated|mac_out6,

@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -10.845
+TNS   : -12605.761
+
+Type  : Slow 1200mV 85C Model Setup 'tiny_risc_v:core1|instruction[0]'
+Slack : -7.916
+TNS   : -149.815
+
+Type  : Slow 1200mV 85C Model Setup 'tiny_risc_v:core0|instruction[0]'
+Slack : -7.785
+TNS   : -116.602
+
+Type  : Slow 1200mV 85C Model Hold 'tiny_risc_v:core0|instruction[0]'
+Slack : -0.878
+TNS   : -3.397
+
+Type  : Slow 1200mV 85C Model Hold 'tiny_risc_v:core1|instruction[0]'
+Slack : -0.159
+TNS   : -0.349
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -3434.561
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tiny_risc_v:core0|instruction[0]'
+Slack : -0.951
+TNS   : -71.082
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'tiny_risc_v:core1|instruction[0]'
+Slack : -0.667
+TNS   : -112.020
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -9.793
+TNS   : -11458.154
+
+Type  : Slow 1200mV 0C Model Setup 'tiny_risc_v:core0|instruction[0]'
+Slack : -7.295
+TNS   : -109.416
+
+Type  : Slow 1200mV 0C Model Setup 'tiny_risc_v:core1|instruction[0]'
+Slack : -7.288
+TNS   : -141.099
+
+Type  : Slow 1200mV 0C Model Hold 'tiny_risc_v:core0|instruction[0]'
+Slack : -0.753
+TNS   : -1.904
+
+Type  : Slow 1200mV 0C Model Hold 'tiny_risc_v:core1|instruction[0]'
+Slack : -0.014
+TNS   : -0.019
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -3433.593
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tiny_risc_v:core0|instruction[0]'
+Slack : -0.907
+TNS   : -57.714
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'tiny_risc_v:core1|instruction[0]'
+Slack : -0.663
+TNS   : -91.492
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -4.874
+TNS   : -5285.300
+
+Type  : Fast 1200mV 0C Model Setup 'tiny_risc_v:core0|instruction[0]'
+Slack : -4.126
+TNS   : -43.782
+
+Type  : Fast 1200mV 0C Model Setup 'tiny_risc_v:core1|instruction[0]'
+Slack : -4.110
+TNS   : -59.082
+
+Type  : Fast 1200mV 0C Model Hold 'tiny_risc_v:core0|instruction[0]'
+Slack : -0.557
+TNS   : -5.006
+
+Type  : Fast 1200mV 0C Model Hold 'tiny_risc_v:core1|instruction[0]'
+Slack : -0.222
+TNS   : -2.833
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -2773.910
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tiny_risc_v:core0|instruction[0]'
+Slack : -0.302
+TNS   : -11.404
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'tiny_risc_v:core1|instruction[0]'
+Slack : -0.255
+TNS   : -17.134
+
+------------------------------------------------------------

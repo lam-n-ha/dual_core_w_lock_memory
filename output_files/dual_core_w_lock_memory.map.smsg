@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at tiny_risc_v.v(4): object "start" differs only in case from object "START" in the same scope File: C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tiny_risc_v.v Line: 4
+Info (10281): Verilog HDL Declaration information at tiny_risc_v.v(8): object "done" differs only in case from object "DONE" in the same scope File: C:/Users/haln/Desktop/ECE289/dual_core_w_lock_memory/tiny_risc_v.v Line: 8

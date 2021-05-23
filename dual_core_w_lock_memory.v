@@ -14,7 +14,7 @@ module dual_core_w_lock_memory(
 	output wire wren_a, wren_b,
 	output wire [31:0] q_a, q_b,
 	output reg whose_turn,
-	output reg finished_storing,
+	//output reg finished_storing,
 	output wire [1:0]need_lock
 );
 	
@@ -60,28 +60,5 @@ module dual_core_w_lock_memory(
 		begin
 			lock <= 2'b00;
 		end
-		/* else if((opcode0 == 7'b1111110) & (opcode1 == 7'b1111110) & (finished_storing == 1'b1))
-		begin
-			whose_turn <= whose_turn^1'b1; // next time both ask for lock, lock the other core
-			lock <= whose_turn + 2'b1;
-			finished_storing <= 1'b0;
-		end
-		else if ((opcode0 == 7'b1111110) & (finished_storing == 1'b1) & (opcode1 != 7'b1111111))
-		begin
-			lock <= 2'b10; // lock core 1
-			whose_turn <= 1'b1; // next time both ask for lock, lock core 0
-			finished_storing <= 1'b0;
-		end
-		else if ((opcode1 == 7'b1111110) & (finished_storing == 1'b1) & (opcode0 != 7'b1111111))
-		begin
-			lock <= 2'b01; // lock core 0
-			whose_turn <= 1'b0; // next time both ask for lock, lock core 1
-			finished_storing <= 1'b0;
-		end
-		else if ((opcode0 == 7'b1111111) | (opcode1 == 7'b1111111))
-		begin
-			finished_storing <= 1'b1;
-		end
-		*/
 	end
 endmodule

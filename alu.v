@@ -60,7 +60,7 @@ begin
 		SLL_2 = 32'd0;
 		SLL_4 = 32'd0;
 		SLL_8 = 32'd0;
-		
+		AUIPCim = 32'd0;
 	case (alu_control)
 		ADD: //ADD or ADDI or JAL or JR or JALR
 		begin

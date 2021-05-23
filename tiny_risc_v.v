@@ -66,7 +66,7 @@ reg [2:0]writewait;
 reg [1:0]memwait;
 
 //memory signals
-reg [7:0]mem_lo;
+reg [6:0]mem_lo;
 reg [31:0]mem_in;
 reg mem_en;
 wire [31:0]mem_out_0;

@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Mon May 17 10:57:50 2021
-Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Analysis & Synthesis Status : Successful - Sat May 22 17:14:32 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : dual_core_w_lock_memory
 Top-level Entity Name : dual_core_w_lock_memory
 Family : Cyclone IV E
-Total logic elements : 7,913
-    Total combinational functions : 5,829
-    Dedicated logic registers : 2,564
-Total registers : 2564
-Total pins : 391
+Total logic elements : 7,856
+    Total combinational functions : 5,772
+    Dedicated logic registers : 2,565
+Total registers : 2565
+Total pins : 390
 Total virtual pins : 0
-Total memory bits : 8,192
+Total memory bits : 10,240
 Embedded Multiplier 9-bit elements : 12
 Total PLLs : 0

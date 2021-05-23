@@ -9,4 +9,4 @@ Four instructions have been added
   - GLW - Global Load Word: load information from the shared memory
   - AFL - ask for lock: turn on the need_lock signal, signaling that the core needs a lock
   - NML - no more lock: turn off the need_lock signal, signaling that the core no longer need a lock
-included is a benchmark the instructions of which has been loaded into the two cores' memory initialization file .mif that can be used to test the locking functionality
+included is a benchmark dualcore.txt, the instructions of which has been loaded into the two cores' memory initialization file .mif that can be used to test the locking functionality

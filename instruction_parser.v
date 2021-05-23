@@ -71,7 +71,7 @@ module instruction_parser(
 			i7 = 7'd0;
 			i12 = 12'd0;
 		end
-		else if ((opcode == 7'b1000000) | (opcode == 7'b0100000))
+		else if ((opcode == 7'b1000000) | (opcode == 7'b0100000)) // afl-ask for lock and nml-no more lock
 		begin
 			address = instruction[31:12];
 			de = instruction[11:7];
